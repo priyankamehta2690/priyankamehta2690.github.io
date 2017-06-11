@@ -319,15 +319,10 @@ xnavigation
 .no-touch .cd-nav li:nth-of-type(2) a:hover,
 .cd-nav li.cd-selected:nth-of-type(2) a {
   /* on hover or if selected - change background color*/
-  background-color: #5c4b51;
+  background-color: #8abeb2;
 }
 .no-touch .cd-nav li:nth-of-type(3) a:hover,
 .cd-nav li.cd-selected:nth-of-type(3) a {
-  /* on hover or if selected - change background color*/
-  background-color: #e0cf75;
-}
-.no-touch .cd-nav li:nth-of-type(4) a:hover,
-.cd-nav li.cd-selected:nth-of-type(4) a {
   /* on hover or if selected - change background color*/
   background-color: #f5b65a;
 }
@@ -336,11 +331,7 @@ xnavigation
   /* on hover or if selected - change background color*/
   background-color: #f25f5c;
 }
-.no-touch .cd-nav li:nth-of-type(6) a:hover,
-.cd-nav li.cd-selected:nth-of-type(6) a {
-  /* on hover or if selected - change background color*/
-  background-color: #8abeb2;
-}
+
 .cd-nav span, .cd-nav em {
   position: absolute;
 }
@@ -627,7 +618,7 @@ main.scale-down {
 }
 
 .cd-content {
-  background-color: #ffffff;
+  background-color: #f2f2f2;
   padding: 4em 0;
 }
 .cd-content p {
@@ -887,10 +878,10 @@ main.scale-down {
 .cd-timeline-content {
   position: relative;
   margin-left: 60px;
-  background: white;
   border-radius: 0.25em;
   padding: 1em;
   box-shadow: 0 3px 0 #d7e4ed;
+  background-color: #ffffff;
 }
 .cd-timeline-content:after {
   content: "";
@@ -898,11 +889,16 @@ main.scale-down {
   clear: both;
 }
 .cd-timeline-content h2 {
-  color: #303e49;
+  color: #000000;
+
 }
-.cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
-  font-size: 13px;
-  font-size: 0.8125rem;
+.cd-timeline-content p, .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date{
+  font-size: 16px;
+  font-size: 1.5rem;
+  color: #000000;
+}
+.cd-timeline-content .cd-date{
+  color: #000000;
 }
 .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
   display: inline-block;
@@ -939,15 +935,16 @@ main.scale-down {
 @media only screen and (min-width: 768px) {
   .cd-timeline-content h2 {
     font-size: 20px;
-    font-size: 1.25rem;
+    font-size: 2rem;
   }
   .cd-timeline-content p {
     font-size: 16px;
-    font-size: 1rem;
+    font-size: 1.5rem;
+    font-weight: 300;
   }
   .cd-timeline-content .cd-read-more, .cd-timeline-content .cd-date {
     font-size: 14px;
-    font-size: 0.875rem;
+    font-size: 1.25rem;
   }
 }
 @media only screen and (min-width: 1170px) {
@@ -971,7 +968,7 @@ main.scale-down {
     left: 122%;
     top: 6px;
     font-size: 16px;
-    font-size: 1rem;
+    font-size: 1.5rem;
   }
   .cd-timeline-block:nth-child(even) .cd-timeline-content {
     float: right;
