@@ -17,7 +17,7 @@ body {
   font-size: 1.6rem;
   font-family: "Open Sans", sans-serif;
   color: #9e87ce;
-  background-color: #403438;
+  background-color: #ffffff;
 }
 
 svg {
@@ -540,7 +540,7 @@ main.scale-down {
 }
 .cd-section header {
   height: 100vh;
-  background: #9e87ce;
+  background: #f25f5c;
   position: relative;
 }
 .cd-section.projects header {
@@ -633,7 +633,7 @@ main.scale-down {
 }
 
 .cd-content {
-  background-color: #f2f2f2;
+  background-color: #3B3738;
   padding: 4em 0;
 }
 .cd-content p {
@@ -744,7 +744,7 @@ main.scale-down {
   left: 18px;
   height: 100%;
   width: 4px;
-  background: #d7e4ed;
+  background: #F8EEE7;
 }
 @media only screen and (min-width: 1170px) {
   #cd-timeline {
@@ -804,13 +804,13 @@ main.scale-down {
   margin-top: -12px;
 }
 .cd-timeline-img.cd-picture {
-  background: #75ce66;
+  background: #286DAB;
 }
 .cd-timeline-img.cd-movie {
-  background: #c03b44;
+  background: #CD5360;
 }
 .cd-timeline-img.cd-location {
-  background: #f0ca45;
+  background: #438496;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
@@ -896,7 +896,7 @@ main.scale-down {
   border-radius: 0.25em;
   padding: 1em;
   box-shadow: 0 3px 0 #d7e4ed;
-  background-color: #ffffff;
+  background-color: #F8EEE7;
 }
 .cd-timeline-content:after {
   content: "";
@@ -1176,7 +1176,7 @@ Portfolio
   -webkit-transition: -webkit-transform 0.5s 0.4s;
   -moz-transition: -moz-transform 0.5s 0.4s;
   transition: transform 0.5s 0.4s;
-  background-color: #ffffff;
+  background-color: #F4DECB;
 }
 .cd-item > a {
   display: table;
@@ -1198,7 +1198,7 @@ Portfolio
   vertical-align: middle;
 }
 /*.cd-item:nth-of-type(1) {
-  background-color: #363558;
+  background-color: #c06014;
 }
 .cd-item:nth-of-type(2) {
   background-color: #544173;
